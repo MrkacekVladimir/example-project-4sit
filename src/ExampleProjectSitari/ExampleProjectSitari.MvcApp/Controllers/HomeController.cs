@@ -17,6 +17,8 @@ namespace ExampleProjectSitari.MvcApp.Controllers
         public IActionResult Index()
         {
             //TODO: tady musím to změnit
+            ViewBag.Test = true;
+            ViewBag.Message = "Ahoj";            
             return View();
         }
 
