@@ -15,6 +15,7 @@ namespace ExampleProjectSitari.MvcApp.Controllers
 
         public IActionResult Index()
         {
+            //TODO: tady musím to změnit
             return View();
         }
 
