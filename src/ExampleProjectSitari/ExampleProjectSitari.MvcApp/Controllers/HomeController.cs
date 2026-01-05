@@ -10,6 +10,7 @@ namespace ExampleProjectSitari.MvcApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+            //TODO: tady taky
             _logger = logger;
         }
 
